@@ -1,4 +1,5 @@
 require "pokemon/gem/version"
+require "unirest"
 
 module Pokemon
   module Gem
