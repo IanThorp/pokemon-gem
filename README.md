@@ -1,8 +1,6 @@
 # Pokemon::Gem
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/pokemon/gem`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Welcome to the pokemon gem! This gem will allow you to simply type in a pokemon's name and return all the damage modifiers to various types. Big thanks to [PokeAPI](https://www.pokeapi.co) for all the data.
 
 ## Installation
 
@@ -22,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Pokemon::Damage.name("pikachu") returns and array with strengths, weakeness, and the pokemon's name.
 
 ## Development
 
